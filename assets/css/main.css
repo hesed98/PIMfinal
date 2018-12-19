@@ -343,7 +343,13 @@ header {
   height: 100%;
   flex-direction: column;
   justify-content: flex-start;
-  margin: auto 0px auto 23px; }
+  margin: 0 auto; }
+
+@media (max-width: 414px){
+    .intro{
+    margin: 0px 12% 0px auto;
+    }
+  }
   
   #myVid{
     position: fixed;
